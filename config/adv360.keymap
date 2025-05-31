@@ -20,6 +20,12 @@
           flavor = "tap-preferred";
           bindings = <&kp>, <&kp>;
       };
+
+      td_ctrl_fn: td_ctrl_fn {
+          compatible = "zmk,behavior-tap-dance";
+          #binding-cells = <2>;
+          bindings = <&kp LCTRL>, <&mo 2>;
+      };
     };
 
 
