@@ -24,7 +24,7 @@
       td_ctrl_fn: td_ctrl_fn {
           compatible = "zmk,behavior-tap-dance";
           #binding-cells = <0>;
-          bindings = <&kp LCTRL &mo 2>;
+          bindings = <&kp LCTRL &tog 2>;
       };
     };
 
