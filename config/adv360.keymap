@@ -53,7 +53,7 @@
         &kp T  
         &none 
         
-        &none 
+        &kp LG(LS(S))  
         &kp Y  
         &kp U  
         &kp I     
@@ -141,7 +141,7 @@
         &kp KP_MULTIPLY 
         &kp MINUS
 
-        //layer2
+        //row2
         &kp TAB   
         &kp Q     
         &kp W    
@@ -157,7 +157,7 @@
         &kp KP_MINUS    
         &kp BSLH
 
-        //layer 3
+        //row 3
         &kp ESC
         &kp A     
         &kp S    
@@ -179,7 +179,7 @@
         &kp KP_PLUS
         &kp SQT
         
-        //layer 4
+        //row 4
         &kp LSHFT 
         &kp Z     
         &kp X    
@@ -197,7 +197,7 @@
         &kp KP_ENTER    
         &kp RSHFT
         
-        //layer 5
+        //row 5
         &mo 2
         &kp GRAVE
         &kp CAPS
@@ -258,10 +258,10 @@
         //row3
         &kp ESC
         &kp A
-        &kp S
-        &kp D
-        &kp F
-        &kp G
+        &mmv MOVE_LEFT
+        &mmv MOVE_DOWN
+        &mmv MOVE_UP
+        &mmv MOVE_RIGHT
         &none
 
         &kp LCTRL
@@ -269,11 +269,11 @@
         &kp LGUI
         &kp RCTRL
 
-        &none
-        &kp H
-        &kp J
-        &kp K
-        &kp L
+        &tog 2
+        &msc SCRL_LEFT
+        &msc SCRL_DOWN
+        &msc SCRL_UP
+        &msc SCRL_RIGHT
         &kp SEMI
 
         //row4
