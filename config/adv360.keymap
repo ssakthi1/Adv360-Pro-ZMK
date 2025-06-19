@@ -432,9 +432,9 @@
         &none
 
         &none
-        &mmv (-10 -10)          //MOVE_UP_LEFT      // Y
+        &mmv -10 -10          //MOVE_UP_LEFT      // Y
         &mmv MOVE_UP           // U
-        &mmv (10 -10)         //MOVE_UP_RIGHT     // I
+        &mmv 10 -10         //MOVE_UP_RIGHT     // I
         &none                  // O (or assign another function)
         &kp P
         &kp BSLH
@@ -473,9 +473,9 @@
         &kp HOME
         &kp PG_UP
 
-        &mmv (-10 10)           //MOVE_DOWN_LEFT    // N
+        &mmv -10 10           //MOVE_DOWN_LEFT    // N
         &mmv MOVE_DOWN         // M
-        &mmv (10 10)          //MOVE_DOWN_RIGHT   // < (comma)
+        &mmv 10 10          //MOVE_DOWN_RIGHT   // < (comma)
         &none                  // > (period)
         &kp FSLH
         &kp RSHFT
