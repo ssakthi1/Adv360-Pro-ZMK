@@ -28,21 +28,21 @@
     default_layer {
       display-name = "Base";
       bindings = <
-        &kp EQUAL 
-        &kp N1    
-        &kp N2   
-        &kp N3   
-        &kp N4     
-        &kp N5 
-        &tog 1
+        &kp EQUAL     //EQUAL 
+        &kp N1        //N1    
+        &kp N2        //N2
+        &kp N3        //N3
+        &kp N4        //N4
+        &kp N5        //N5
+        &tog 1        //kp
         
-        &mo 3 
-        &kp N6 
-        &kp N7 
-        &kp N8    
-        &kp N9   
-        &kp N0   
-        &kp MINUS
+        &mo 3         //Mod
+        &kp N6        //N6
+        &kp N7        //N7
+        &kp N8        //N8
+        &kp N9        //N9
+        &kp N0        //N0
+        &kp MINUS     //MINUS
 
         //row2
         &kp TAB   
