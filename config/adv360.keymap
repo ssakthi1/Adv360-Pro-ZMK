@@ -398,7 +398,7 @@
       >;
     };
     cursor {
-      display-name = "Fn";
+      display-name = "Cu";
       bindings = <
         &kp EQUAL
         &kp N1
@@ -436,10 +436,10 @@
         //row3
         &kp ESC
         &kp A
-        &mmv MOVE_LEFT
-        &mmv MOVE_DOWN
-        &mmv MOVE_UP
-        &mmv MOVE_RIGHT
+        &kp S
+        &kp D
+        &kp F
+        &kp G
         &none
 
         &kp LCTRL
