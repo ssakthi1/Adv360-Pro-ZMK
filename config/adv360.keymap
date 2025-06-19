@@ -68,14 +68,14 @@
         &kp D    
         &kp F      
         &kp G  
-        &none           
+        &tog 2           
         
         &kp LCTRL 
         &kp LALT 
         &kp LGUI  
         &kp RCTRL
         
-        &none 
+        &tog 2 
         &kp H  
         &kp J  
         &kp K     
@@ -115,8 +115,8 @@
         &kp ENTER 
         &kp SPACE
 
-        &kp UP
-        &kp DOWN  
+        &kp DOWN
+        &kp UP  
         &kp LBKT 
         &kp RBKT 
         &mo 2
@@ -212,8 +212,8 @@
         &kp ENTER 
         &kp KP_N0
         
-        &kp UP     
         &kp DOWN     
+        &kp UP     
         &kp KP_DOT    
         &kp RBKT
         &mo 2
@@ -310,8 +310,8 @@
         &kp ENTER
         &kp SPACE
 
-        &kp UP
         &kp DOWN
+        &kp UP
         &kp LBKT
         &kp RBKT
         &mo 2
