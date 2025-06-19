@@ -307,8 +307,8 @@
         &kp DEL
         &kp END
         &kp PG_DN
-        &kp ENTER
-        &kp SPACE
+        &mkp MB1
+        &mkp MB2
 
         &kp DOWN
         &kp UP
