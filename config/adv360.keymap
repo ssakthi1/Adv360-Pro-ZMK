@@ -495,22 +495,18 @@
         &mo 2
       >;
     };
-    extra1 { 
-      display-name = "Red";    
-      status = "reserved";
-    };
 
-    extra2 { 
+    extra1 { 
       display-name = "Purple";    
       status = "reserved";
     };
 
-    extra3 { 
+    extra2 { 
       display-name = "Cyan";    
       status = "reserved";
     };
 
-    extra4 { 
+    extra3 { 
       display-name = "Yellow";    
       status = "reserved";
     };
