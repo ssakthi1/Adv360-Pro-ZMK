@@ -63,7 +63,7 @@
 
         //row3
         &kp ESC   
-        &lt 2 &kp A   // Tap for A, hold for scroll/mouse layer     
+        &kp A       //&lt 2 &kp A   // Tap for A, hold for scroll/mouse layer     
         &kp S    
         &kp D    
         &kp F      
