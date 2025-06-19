@@ -474,7 +474,7 @@
         &kp PG_UP
 
         &mmv_MOVE_DOWN_LEFT    // N
-        &mmv MOE_DOWN         // M
+        &mmv MOVE_DOWN         // M
         &mmv_MOVE_DOWN_RIGHT   // < (comma)
         &none                  // > (period)
         &kp FSLH
