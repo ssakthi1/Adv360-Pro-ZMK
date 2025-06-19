@@ -225,20 +225,20 @@
 
   mmv_MOVE_UP_LEFT: mmv_move_up_left {
     compatible = "zmk,behavior-mouse-move";
-    move = <-10 -10>;
+    move = <(-10) (-10)>;
   };
 
   mmv_MOVE_UP_RIGHT: mmv_move_up_right {
       compatible = "zmk,behavior-mouse-move";
-      move = <-10 10>;
+      move = <(-10) (10)>;
   };
 
   mmv_MOVE_DOWN_LEFT: mmv_move_down_left {
       compatible = "zmk,behavior-mouse-move";
-      move = <10 -10>;
+      move = <(10) (-10)>;
   };
 
   mmv_MOVE_DOWN_RIGHT: mmv_move_down_right {
       compatible = "zmk,behavior-mouse-move";
-      move = <10 10>;
+      move = <(10) (10)>;
   };
