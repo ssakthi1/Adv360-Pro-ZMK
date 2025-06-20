@@ -22,7 +22,7 @@
       };
     };
 
-  keymap: keymap {
+  keymap {
     compatible = "zmk,keymap";
 
     default_layer {
@@ -435,9 +435,9 @@
         //&mmv_MOVE_UP_LEFT      // Y
         //&mmv MOVE_UP           // U
         //&mmv_MOVE_UP_RIGHT     // I
-        &mmv MOVE_UP_LEFT
-        &mmv MOVE_UP
-        &mmv MOVE_UP_RIGHT
+        &kp Y
+        &kp U
+        &kp I
         &none                  // O (or assign another function)
         &kp P
         &kp BSLH
@@ -479,9 +479,9 @@
         //&mmv_MOVE_DOWN_LEFT    // N
         //&mmv MOVE_DOWN         // M
         //&mmv_MOVE_DOWN_RIGHT   // < (comma)
-        &mmv MOVE_DOWN_LEFT
-        &mmv MOVE_DOWN
-        &mmv MOVE_DOWN_RIGHT
+        &kp N //MOVE_DOWN_LEFT
+        &kp M //MOVE_DOWN
+        &kp < // MOVE_DOWN_RIGHT
         &none                  // > (period)
         &kp FSLH
         &kp RSHFT
