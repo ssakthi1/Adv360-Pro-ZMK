@@ -435,7 +435,7 @@
         //&mmv_MOVE_UP_LEFT      // Y
         //&mmv MOVE_UP           // U
         //&mmv_MOVE_UP_RIGHT     // I
-        &kp Y
+        &mmv MOVE_UP_LEFT
         &kp U
         &kp I
         &none                  // O (or assign another function)
