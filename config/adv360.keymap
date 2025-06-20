@@ -481,7 +481,7 @@
         //&mmv_MOVE_DOWN_RIGHT   // < (comma)
         &kp N //MOVE_DOWN_LEFT
         &kp M //MOVE_DOWN
-        &kp < // MOVE_DOWN_RIGHT
+        &kp COMMA // MOVE_DOWN_RIGHT
         &none                  // > (period)
         &kp FSLH
         &kp RSHFT
