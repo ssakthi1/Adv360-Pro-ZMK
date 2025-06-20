@@ -432,9 +432,12 @@
         &none
 
         &none
-        &mmv_MOVE_UP_LEFT      // Y
-        &mmv MOVE_UP           // U
-        &mmv_MOVE_UP_RIGHT     // I
+        //&mmv_MOVE_UP_LEFT      // Y
+        //&mmv MOVE_UP           // U
+        //&mmv_MOVE_UP_RIGHT     // I
+        &mmv MOVE_UP_LEFT
+        &mmv MOVE_UP
+        &mmv MOVE_UP_RIGHT
         &none                  // O (or assign another function)
         &kp P
         &kp BSLH
@@ -473,9 +476,12 @@
         &kp HOME
         &kp PG_UP
 
-        &mmv_MOVE_DOWN_LEFT    // N
-        &mmv MOVE_DOWN         // M
-        &mmv_MOVE_DOWN_RIGHT   // < (comma)
+        //&mmv_MOVE_DOWN_LEFT    // N
+        //&mmv MOVE_DOWN         // M
+        //&mmv_MOVE_DOWN_RIGHT   // < (comma)
+        &mmv MOVE_DOWN_LEFT
+        &mmv MOVE_DOWN
+        &mmv MOVE_DOWN_RIGHT
         &none                  // > (period)
         &kp FSLH
         &kp RSHFT
