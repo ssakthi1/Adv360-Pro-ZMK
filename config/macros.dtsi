@@ -248,7 +248,6 @@ behaviors {
       #binding-cells = <0>;
       move = < (-10) 10>;
   };
-*/
-
 };
+*/
 

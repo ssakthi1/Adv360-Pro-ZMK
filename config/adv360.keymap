@@ -22,7 +22,7 @@
       };
     };
 
-  keymap {
+    keymap {
     compatible = "zmk,keymap";
 
     default_layer {
@@ -479,10 +479,10 @@
         //&mmv_MOVE_DOWN_LEFT    // N
         //&mmv MOVE_DOWN         // M
         //&mmv_MOVE_DOWN_RIGHT   // < (comma)
-        &kp N //MOVE_DOWN_LEFT
-        &kp M //MOVE_DOWN
-        &kp COMMA // MOVE_DOWN_RIGHT
-        &none                  // > (period)
+        &kp N                   //MOVE_DOWN_LEFT
+        &kp M                   //MOVE_DOWN
+        &kp COMMA               // MOVE_DOWN_RIGHT
+        &none                   // > (period)
         &kp FSLH
         &kp RSHFT
 
