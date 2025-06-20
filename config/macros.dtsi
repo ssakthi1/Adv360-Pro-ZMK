@@ -245,7 +245,7 @@ macro_quotes: macro_quotes {
       bindings = <&mmv MOVE_DOWN>, <&mmv MOVE_LEFT>;
   };
 
-  mmv_MOVE_DOWN_RIGHT: mmv_move_up_RIGHT {
+  mmv_MOVE_DOWN_RIGHT: mmv_move_down_right {
       compatible = "zmk,behavior-macro";
       label = "move_down_right";
       #binding-cells = <0>;
