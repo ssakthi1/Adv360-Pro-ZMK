@@ -290,9 +290,9 @@
         &kp HOME
         &kp PG_UP
 
-        &MOVE_DOWN_LEFT //&mmv -10 10     // N: bottom left
-        &MOVE_DOWN_RIGHT //&mmv 0 10      // M: bottom middle
-        &MOVE_DOWN_RIGHT //&mmv 10 10     // ,: bottom right
+        &mmv_DOWN_LEFT //&mmv -10 10     // N: bottom left
+        &mmv_DOWN_RIGHT //&mmv 0 10      // M: bottom middle
+        &mmv_DOWN_RIGHT //&mmv 10 10     // ,: bottom right
         &kp DOT
         &kp FSLH
         &kp RSHFT
