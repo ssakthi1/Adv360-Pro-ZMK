@@ -227,23 +227,27 @@ macro_quotes: macro_quotes {
   mmv_MOVE_UP_LEFT: mmv_MOVE_UP_LEFT {
       compatible = "zmk,behavior-tap";
       label = "MMV MOVE UP LEFT";
-      bindings = <&mmv -10 -10>;
+      #binding-cells = <0>;
+      move = < -10 -10>;
   };
   mmv_MOVE_UP_RIGHT: mmv_MOVE_UP_RIGHT {
       compatible = "zmk,behavior-tap";
       label = "MMV MOVE UP RIGHT";
-      bindings = <&mmv 10 -10>;
+      #binding-cells = <0>;
+      move = < 10 10>;
   };
   mmv_MOVE_DOWN_LEFT: mmv_MOVE_DOWN_LEFT {
       compatible = "zmk,behavior-tap";
       label = "MMV MOVE DOWN LEFT";
-      bindings = <&mmv -10 10>;
+      #binding-cells = <0>;
+      move = < -10 -0>;
   };
   mmv_MOVE_DOWN_RIGHT: mmv_MOVE_DOWN_RIGHT {
       compatible = "zmk,behavior-tap";
       label = "MMV MOVE DOWN RIGHT";
-      bindings = <&mmv 10 10>;
+      #binding-cells = <0>;
+      move = < 10 10>;
   };
-  
+
 
 
