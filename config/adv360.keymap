@@ -240,82 +240,82 @@
         &kp F12
 
         //row2
-        &kp TAB
-        &kp Q
-        &kp W
-        &kp E
-        &kp R
-        &kp T
-        &none
+        &trans    //&kp TAB
+        &trans    //&kp Q
+        &trans    //&kp W
+        &trans    //&kp E
+        &trans    //&kp R
+        &trans    //&kp T
+        &trans    //&none
 
-        &none
-        &mmv_MOVE_UP_LEFT //mmv -10 -10    // Y: top left
-        &mmv_MOVE_UP_RIGHT //&mmv 0 -10     // U: top middle
-        &mmv_MOVE_UP_RIGHT //&mmv 10 -10    // I: top right
-        &kp O
-        &kp P
-        &kp BSLH
+        &trans    //&none
+        &trans    //&mmv_MOVE_UP_LEFT //mmv -10 -10    // Y: top left
+        &trans    //&mmv_MOVE_UP_RIGHT //&mmv 0 -10     // U: top middle
+        &trans    //&mmv_MOVE_UP_RIGHT //&mmv 10 -10    // I: top right
+        &trans    //&kp O
+        &trans    //&kp P
+        &trans    //&kp BSLH
 
         //row3
-        &kp ESC
-        &kp A
-        &mmv MOVE_LEFT
-        &mmv MOVE_DOWN
-        &mmv MOVE_UP
-        &mmv MOVE_RIGHT
-        &tog 2
+        &trans    //&kp ESC
+        &trans    //&kp A
+        &trans    //&mmv MOVE_LEFT
+        &trans    //&mmv MOVE_DOWN
+        &trans    //&mmv MOVE_UP
+        &trans    //&mmv MOVE_RIGHT
+        &trans    //&tog 2
 
-        &kp LCTRL
-        &kp LALT
-        &kp LGUI
-        &kp RCTRL
+        &trans    //&kp LCTRL
+        &trans    //&kp LALT
+        &trans    //&kp LGUI
+        &trans    //&kp RCTRL
 
-        &tog 2
-        &mmv_MOVE_UP_LEFT //&mmv -10 0      // H: middle left
-        &none              // J: (or assign as needed)
-        &none             //&mmv 0 0       // K: middle (no movement, or assign up/down)
-        &mmv_MOVE_UP_RIGHT //&mmv 10 0      // L: middle right
-        &kp SEMI
+        &trans    //&tog 2
+        &trans    //&mmv_MOVE_UP_LEFT //&mmv -10 0      // H: middle left
+        &trans    //&none              // J: (or assign as needed)
+        &trans    //&none             //&mmv 0 0       // K: middle (no movement, or assign up/down)
+        &trans    //&mmv_MOVE_UP_RIGHT //&mmv 10 0      // L: middle right
+        &trans    //&kp SEMI
 
         //row4
-        &kp SQT
+        &trans    //&kp SQT
 
-        &kp LSHFT
-        &kp Z
-        &kp X
-        &kp C
-        &kp V
-        &kp B
+        &trans    //&kp LSHFT
+        &trans    //&kp Z
+        &trans    //&kp X
+        &trans    //&kp C
+        &trans    //&kp V
+        &trans    //&kp B
 
-        &kp HOME
-        &kp PG_UP
+        &trans    //&kp HOME
+        &trans    //&kp PG_UP
 
-        &mmv_MOVE_DOWN_LEFT //&mmv -10 10     // N: bottom left
-        &mmv_MOVE_DOWN_RIGHT //&mmv 0 10      // M: bottom middle
-        &mmv_MOVE_DOWN_RIGHT //&mmv 10 10     // ,: bottom right
-        &kp DOT
-        &kp FSLH
-        &kp RSHFT
+        &trans    //&mmv_MOVE_DOWN_LEFT //&mmv -10 10     // N: bottom left
+        &trans    //&mmv_MOVE_DOWN_RIGHT //&mmv 0 10      // M: bottom middle
+        &trans    //&mmv_MOVE_DOWN_RIGHT //&mmv 10 10     // ,: bottom right
+        &trans    //&kp DOT
+        &trans    //&kp FSLH
+        &trans    //&kp RSHFT
 
         //row5
-        &mo 2
-        &kp GRAVE
-        &kp CAPS
-        &kp LEFT
-        &kp RIGHT
+        &trans    //&mo 2
+        &trans    //&kp GRAVE
+        &trans    //&kp CAPS
+        &trans    //&kp LEFT
+        &trans    //&kp RIGHT
 
-        &kp BSPC
-        &kp DEL
-        &kp END
-        &kp PG_DN
-        &mkp MB1
-        &mkp MB2
+        &trans    //&kp BSPC
+        &trans    //&kp DEL
+        &trans    //&kp END
+        &trans    //&kp PG_DN
+        &trans    //&mkp MB1
+        &trans    //&mkp MB2
 
-        &kp DOWN
-        &kp UP
-        &kp LBKT
-        &kp RBKT
-        &mo 2
+        &trans    //&kp DOWN
+        &trans    //&kp UP
+        &trans    //&kp LBKT
+        &trans    //&kp RBKT
+        &trans    //&mo 2
       >;
     };
     mod {

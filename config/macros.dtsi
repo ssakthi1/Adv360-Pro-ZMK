@@ -223,7 +223,7 @@ macro_quotes: macro_quotes {
     display-name = "Double Click";
   };
 
-
+  /*
   mmv_MOVE_UP_LEFT: mmv_MOVE_UP_LEFT {
       compatible = "zmk,behavior-tap";
       label = "MMV MOVE UP LEFT";
@@ -248,6 +248,7 @@ macro_quotes: macro_quotes {
       #binding-cells = <0>;
       move = <10 (-10)>;
   };
+  */
 
 
 
