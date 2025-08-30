@@ -228,7 +228,7 @@ macro_quotes: macro_quotes {
       compatible = "zmk,behavior-tap";
       label = "MMV MOVE UP LEFT";
       #binding-cells = <0>;
-      move = < -10 -10>;
+      move = < (-10) 10>;
   };
   mmv_MOVE_UP_RIGHT: mmv_MOVE_UP_RIGHT {
       compatible = "zmk,behavior-tap";
@@ -240,13 +240,13 @@ macro_quotes: macro_quotes {
       compatible = "zmk,behavior-tap";
       label = "MMV MOVE DOWN LEFT";
       #binding-cells = <0>;
-      move = < -10 -0>;
+      move = < (-10) (-10)>;
   };
   mmv_MOVE_DOWN_RIGHT: mmv_MOVE_DOWN_RIGHT {
       compatible = "zmk,behavior-tap";
       label = "MMV MOVE DOWN RIGHT";
       #binding-cells = <0>;
-      move = < 10 10>;
+      move = <10 (-10)>;
   };
 
 
