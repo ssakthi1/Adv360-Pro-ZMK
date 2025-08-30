@@ -22,11 +22,6 @@
           bindings = <&kp>, <&kp>;
       };
 
-      mmv_MOVE_UP_LEFT: mmv_move_up_left {
-        compatible = "zmk,behavior-mouse-move";
-        #binding-cells = <0>;
-        move = < -10 -10 >;
-      };
     };
 
     keymap {
