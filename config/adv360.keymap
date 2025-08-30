@@ -274,7 +274,7 @@
         &mmv_MOVE_UP_LEFT //&mmv -10 0      // H: middle left
         &none              // J: (or assign as needed)
         &none             //&mmv 0 0       // K: middle (no movement, or assign up/down)
-        mmv_MOVE_UP_RIGHT //&mmv 10 0      // L: middle right
+        &mmv_MOVE_UP_RIGHT //&mmv 10 0      // L: middle right
         &kp SEMI
 
         //row4
@@ -292,7 +292,7 @@
 
         &MOVE_DOWN_LEFT //&mmv -10 10     // N: bottom left
         &MOVE_DOWN_RIGHT //&mmv 0 10      // M: bottom middle
-        MOVE_DOWN_RIGHT //&mmv 10 10     // ,: bottom right
+        &MOVE_DOWN_RIGHT //&mmv 10 10     // ,: bottom right
         &kp DOT
         &kp FSLH
         &kp RSHFT
