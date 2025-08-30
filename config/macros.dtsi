@@ -223,7 +223,7 @@ macro_quotes: macro_quotes {
     display-name = "Double Click";
   };
 
-/*
+
 behaviors {
   MOVE_DOWN_RIGHT: mmv_move_down_right {
       compatible = "zmk,behavior-mouse-move";
@@ -248,7 +248,7 @@ behaviors {
       #binding-cells = <0>;
       move = < (-10) 10>;
   };
-  */
+
 };
 
 
