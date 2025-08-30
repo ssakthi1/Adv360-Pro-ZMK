@@ -21,6 +21,12 @@
           flavor = "tap-preferred";
           bindings = <&kp>, <&kp>;
       };
+
+      mmv_MOVE_UP_LEFT: mmv_move_up_left {
+        compatible = "zmk,behavior-mouse-move";
+        #binding-cells = <0>;
+        move = < -10 -10 >;
+      };
     };
 
     keymap {
@@ -249,7 +255,7 @@
         &none
 
         &none
-        &mmv -10 -10    // Y: top left
+        &mmv_MOVE_UP_LEFT //mmv -10 -10    // Y: top left
         &mmv 0 -10     // U: top middle
         &mmv 10 -10    // I: top right
         &kp O
