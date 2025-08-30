@@ -249,9 +249,9 @@
         &none
 
         &none
-        &mmv < -10, -10 >   // Y: top left
-        &mmv < 0, -10 >     // U: top middle
-        &mmv < 10, -10 >    // I: top right
+        &mmv -10 -10    // Y: top left
+        &mmv 0 -10     // U: top middle
+        &mmv 10 -10    // I: top right
         &kp O
         &kp P
         &kp BSLH
@@ -271,10 +271,10 @@
         &kp RCTRL
 
         &tog 2
-        &mmv < -10, 0 >     // H: middle left
+        &mmv -10 0      // H: middle left
         &none              // J: (or assign as needed)
-        &mmv < 0, 0 >       // K: middle (no movement, or assign up/down)
-        &mmv < 10, 0 >      // L: middle right
+        &mmv 0 0       // K: middle (no movement, or assign up/down)
+        &mmv 10 0      // L: middle right
         &kp SEMI
 
         //row4
@@ -290,9 +290,9 @@
         &kp HOME
         &kp PG_UP
 
-        &mmv < -10, 10 >    // N: bottom left
-        &mmv < 0, 10 >      // M: bottom middle
-        &mmv < 10, 10 >     // ,: bottom right
+        &mmv -10 10     // N: bottom left
+        &mmv 0 10      // M: bottom middle
+        &mmv 10 10     // ,: bottom right
         &kp DOT
         &kp FSLH
         &kp RSHFT
