@@ -223,21 +223,21 @@
     fn {
       display-name = "Fn";
       bindings = <
-        &kp EQUAL
-        &kp N1
-        &kp N2
-        &kp N3
-        &kp N4
-        &kp N5
+        &kp F1
+        &kp F2
+        &kp F3
+        &kp F4
+        &kp F5
+        &kp F6
         &tog 1
 
         &mo 3
-        &kp N6
-        &kp N7
-        &kp N8
-        &kp N9
-        &kp N0
-        &kp MINUS
+        &kp F7
+        &kp F8
+        &kp F9
+        &kp 10
+        &kp F11
+        &kp F12
 
         //row2
         &kp TAB
@@ -249,9 +249,9 @@
         &none
 
         &none
-        &kp Y
-        &kp U
-        &kp I
+        &mmv < -10 -10 >   // Y: top left
+        &mmv < 0 -10 >     // U: top middle
+        &mmv < 10 -10 >    // I: top right
         &kp O
         &kp P
         &kp BSLH
@@ -271,10 +271,10 @@
         &kp RCTRL
 
         &tog 2
-        &msc SCRL_LEFT
-        &msc SCRL_DOWN
-        &msc SCRL_UP
-        &msc SCRL_RIGHT
+        &mmv < -10 0 >     // H: middle left
+        &none              // J: (or assign as needed)
+        &mmv < 0 0 >       // K: middle (no movement, or assign up/down)
+        &mmv < 10 0 >      // L: middle right
         &kp SEMI
 
         //row4
@@ -290,9 +290,9 @@
         &kp HOME
         &kp PG_UP
 
-        &kp N
-        &kp M
-        &kp COMMA
+        &mmv < -10 10 >    // N: bottom left
+        &mmv < 0 10 >      // M: bottom middle
+        &mmv < 10 10 >     // ,: bottom right
         &kp DOT
         &kp FSLH
         &kp RSHFT
