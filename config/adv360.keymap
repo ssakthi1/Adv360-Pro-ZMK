@@ -258,11 +258,11 @@
 
         //row3
         &trans    //&kp ESC
-        &trans    //&kp A
-        &trans    //&mmv MOVE_LEFT
-        &trans    //&mmv MOVE_DOWN
-        &trans    //&mmv MOVE_UP
-        &trans    //&mmv MOVE_RIGHT
+        &kp F13   //&kp A
+        &kp F14   //&mmv MOVE_LEFT
+        &kp F15   //&mmv MOVE_DOWN
+        &kp F16   //&mmv MOVE_UP
+        &kp F17   //&mmv MOVE_RIGHT
         &trans    //&tog 2
 
         &trans    //&kp LCTRL
@@ -271,15 +271,14 @@
         &trans    //&kp RCTRL
 
         &trans    //&tog 2
-        &trans    //&mmv_MOVE_UP_LEFT //&mmv -10 0      // H: middle left
-        &trans    //&none              // J: (or assign as needed)
-        &trans    //&none             //&mmv 0 0       // K: middle (no movement, or assign up/down)
-        &trans    //&mmv_MOVE_UP_RIGHT //&mmv 10 0      // L: middle right
-        &trans    //&kp SEMI
+        &kp F18    //&mmv_MOVE_UP_LEFT //&mmv -10 0      // H: middle left
+        &kp F19    //&none              // J: (or assign as needed)
+        &kp F20    //&none             //&mmv 0 0       // K: middle (no movement, or assign up/down)
+        &kp F21    //&mmv_MOVE_UP_RIGHT //&mmv 10 0      // L: middle right
+        &kp F22    //&kp SEMI
+        &kp F23    //&kp SQT
 
         //row4
-        &trans    //&kp SQT
-
         &trans    //&kp LSHFT
         &trans    //&kp Z
         &trans    //&kp X
