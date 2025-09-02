@@ -241,28 +241,28 @@
 
         //row2
         &trans    //&kp TAB
-        &trans    //&kp Q
-        &trans    //&kp W
-        &trans    //&kp E
-        &trans    //&kp R
-        &trans    //&kp T
+        &kp F13  //&kp Q
+        &kp F14  //&kp W
+        &kp F15  //&kp E
+        &kp F16  //&kp R
+        &kp F17  //&kp T
         &trans    //&none
 
         &trans    //&none
-        &trans    //&mmv_MOVE_UP_LEFT //mmv -10 -10    // Y: top left
-        &trans    //&mmv_MOVE_UP_RIGHT //&mmv 0 -10     // U: top middle
-        &trans    //&mmv_MOVE_UP_RIGHT //&mmv 10 -10    // I: top right
-        &trans    //&kp O
-        &trans    //&kp P
+        &kp F18    //&mmv_MOVE_UP_LEFT //mmv -10 -10    // Y: top left
+        &kp F19    //&mmv_MOVE_UP_RIGHT //&mmv 0 -10     // U: top middle
+        &kp F20    //&mmv_MOVE_UP_RIGHT //&mmv 10 -10    // I: top right
+        &kp F21    //&kp O
+        &kp F22    //&kp P
         &trans    //&kp BSLH
 
         //row3
         &trans    //&kp ESC
-        &kp F13   //&kp A
-        &kp F14   //&mmv MOVE_LEFT
-        &kp F15   //&mmv MOVE_DOWN
-        &kp F16   //&mmv MOVE_UP
-        &kp F17   //&mmv MOVE_RIGHT
+        &trans   //&kp A
+        &trans   //&mmv MOVE_LEFT
+        &trans   //&mmv MOVE_DOWN
+        &trans   //&mmv MOVE_UP
+        &trans   //&mmv MOVE_RIGHT
         &trans    //&tog 2
 
         &trans    //&kp LCTRL
@@ -271,12 +271,12 @@
         &trans    //&kp RCTRL
 
         &trans    //&tog 2
-        &kp F18    //&mmv_MOVE_UP_LEFT //&mmv -10 0      // H: middle left
-        &kp F19    //&none              // J: (or assign as needed)
-        &kp F20    //&none             //&mmv 0 0       // K: middle (no movement, or assign up/down)
-        &kp F21    //&mmv_MOVE_UP_RIGHT //&mmv 10 0      // L: middle right
-        &kp F22    //&kp SEMI
-        &kp F23    //&kp SQT
+        &msc SCRL_LEFT
+        &msc SCRL_DOWN
+        &msc SCRL_UP
+        &msc SCRL_RIGHT
+        &trans    //&kp SEMI
+        &trans    //&kp SQT
 
         //row4
         &trans    //&kp LSHFT
