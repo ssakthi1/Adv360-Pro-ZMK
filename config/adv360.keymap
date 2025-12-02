@@ -103,7 +103,7 @@
         &kp RSHFT
 
         //row5
-        &mo 2
+        &kp LALT //&mo 2
         &kp GRAVE 
         &kp CAPS 
         &kp LEFT 
@@ -120,7 +120,7 @@
         &kp UP  
         &kp LBKT 
         &kp RBKT 
-        &mo 2
+        &kp RALT //&mo 2
       >;
     };
     keypad {
