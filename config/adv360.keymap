@@ -69,14 +69,14 @@
         &lt 4 D     // Tap for D, hold for cursor movement
         &kp F      
         &kp G  
-        &tog 2           
+        &mo 2       //&tog 2           
         
         &kp LCTRL 
-        &mo 2       //&kp LALT 
+        &kp LGUI    //&mo 2       //&kp LALT 
         &kp LGUI  
         &kp RCTRL
         
-        &tog 2 
+        &mo 2       //&tog 2 
         &kp H  
         &kp J  
         &kp K     
