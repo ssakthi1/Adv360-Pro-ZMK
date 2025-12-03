@@ -165,14 +165,14 @@
         &kp D    
         &kp F      
         &kp G  
-        &none
+        &trans
         
         &kp LCTRL 
-        &kp LALT 
+        &kp LGUI 
         &kp LGUI  
         &kp RCTRL
         
-        &none
+        &trans
         &kp H  
         &kp KP_N4  
         &kp KP_N5    
