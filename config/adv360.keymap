@@ -120,7 +120,7 @@
         &kp UP  
         &kp LBKT 
         &kp RBKT 
-        &kp RALT //&mo 2
+        &kp LALT //&mo 2
       >;
     };
     keypad {
