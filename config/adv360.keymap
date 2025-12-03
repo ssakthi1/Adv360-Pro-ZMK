@@ -468,7 +468,7 @@
         &kp LGUI
         &kp RCTRL
 
-        &tog 2
+        &mo 2
         &mmv MOVE_LEFT
         &mmv MOVE_DOWN
         &mmv MOVE_UP
