@@ -72,7 +72,7 @@
         &mo 2       //&tog 2           
         
         &kp LCTRL 
-        &kp LGUI    //&mo 2       //&kp LALT 
+        &kp LGUI    //&mo 2       //&kp LALT  
         &kp LGUI  
         &kp RCTRL
         
