@@ -21,6 +21,37 @@
           flavor = "tap-preferred";
           bindings = <&kp>, <&kp>;
       };
+
+
+      /*************************************************
+      * Recommended: Hold-Tap + Tap-Dance
+      * - Hold = Ctrl
+      * - Double-tap = Shift+F10
+      * - Single-tap = Menu (optional)
+      *************************************************/
+      td_menu_ctx: tap-dance {
+        compatible = "zmk,behavior-tap-dance";
+        label = "TD_MENU_CTX";
+        #binding-cells = <0>;
+        tapping-term-ms = <225>; // adjust for your speed
+        bindings = <
+          &kp K_APPLICATION   // 1 tap → Menu key (or &none if you want no action)
+          &kp LS(F10)         // 2 taps → Shift+F10
+        >;
+      };
+    
+    menu_dance_or_ctrl: hold-tap {
+        compatible = "zmk,behavior-hold-tap";
+        label = "MENU_DANCE_OR_CTRL";
+        #binding-cells = <2>;
+        tapping-term-ms = <220>;
+        flavor = "hold-preferred"; // ensures Ctrl wins during fast chords
+        bindings = <
+          &kp RCTRL,          // HOLD → Ctrl
+          &td_menu_ctx        // TAP → single/double logic
+        >;
+      };
+      
     };
 
     keymap {
@@ -74,7 +105,7 @@
         &kp LCTRL 
         &kp LGUI    //&mo 2       //&kp LALT  
         &kp LGUI  
-        &kp RCTRL
+        &kp menu_dance_or_ctrl    //RCTRL
         
         &mo 2       //&tog 2 
         &kp H  
