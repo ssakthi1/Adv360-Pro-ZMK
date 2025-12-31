@@ -47,7 +47,7 @@
         tapping-term-ms = <220>;
         flavor = "hold-preferred"; // ensures Ctrl wins during fast chords
         bindings = <
-          &kp RCTRL          // HOLD → Ctrl
+          &kp          // HOLD → Ctrl
           &td_menu_ctx        // TAP → single/double logic
         >;
       };
@@ -105,7 +105,7 @@
         &kp LCTRL 
         &kp LGUI    //&mo 2       //&kp LALT  
         &kp LGUI  
-        &menu_dance_or_ctrl    //RCTRL
+        &menu_dance_or_ctrl RCTRL
         
         &mo 2       //&tog 2 
         &kp H  
