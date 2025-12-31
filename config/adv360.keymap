@@ -105,7 +105,7 @@
         &kp LCTRL 
         &kp LGUI    //&mo 2       //&kp LALT  
         &kp LGUI  
-        &menu_dance_or_ctrl RCTRL
+        &menu_dance_or_ctrl RCTRL 0
         
         &mo 2       //&tog 2 
         &kp H  
