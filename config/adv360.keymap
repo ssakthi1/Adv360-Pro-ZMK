@@ -475,13 +475,10 @@
         &none
 
         &none
-        //&mmv_MOVE_UP_LEFT      // Y
-        //&mmv MOVE_UP           // U
-        //&mmv_MOVE_UP_RIGHT     // I
-        &kp Y                   //&mmv MOVE_DOWN_RIGHT
-        &kp U
-        &kp I
-        &none                  // O (or assign another function)
+        &mmv MOVE(-1200, -1200)  // Y: diagonal up-left
+        &msc SCRL_UP             // U: scroll up
+        &mmv MOVE(1200, -1200)   // I: diagonal up-right
+        &msc SCRL_DOWN           // O: scroll down
         &kp P
         &kp BSLH
 
@@ -504,10 +501,10 @@
         &mmv MOVE_DOWN
         &mmv MOVE_UP
         &mmv MOVE_RIGHT
-        &kp SEMI
+        &msc SCRL_LEFT
 
         //row4
-        &kp SQT
+        &msc SCRL_RIGHT
 
         &kp LSHFT
         &kp Z
@@ -519,14 +516,11 @@
         &kp HOME
         &kp PG_UP
 
-        //&mmv_MOVE_DOWN_LEFT    // N
-        //&mmv MOVE_DOWN         // M
-        //&mmv_MOVE_DOWN_RIGHT   // < (comma)
-        &kp N                   //MOVE_DOWN_LEFT
-        &kp K_APPLICATION     //M                   //MOVE_DOWN
-        &kp COMMA               // MOVE_DOWN_RIGHT
-        &none                   // > (period)
-        &kp FSLH
+        &mmv MOVE(-1200, 1200)   // N: diagonal down-left
+        &mkp MB3                  // M: middle click
+        &mmv MOVE(1200, 1200)    // ,: diagonal down-right
+        &mkp MB4                  // .: back button
+        &mkp MB5                  // /: forward button
         &kp RSHFT
 
         //row5
