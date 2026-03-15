@@ -477,8 +477,8 @@
         &none
         &mmv MOVE(-1200, -1200)  // Y: diagonal up-left
         &msc SCRL_UP             // U: scroll up
-        &mmv MOVE(1200, -1200)   // I: diagonal up-right
-        &msc SCRL_DOWN           // O: scroll down
+        &msc SCRL_DOWN           // I: scroll down
+        &mmv MOVE(1200, -1200)   // O: diagonal up-right
         &kp P
         &kp BSLH
 
@@ -518,8 +518,8 @@
 
         &mmv MOVE(-1200, 1200)   // N: diagonal down-left
         &mkp MB3                  // M: middle click
-        &mmv MOVE(1200, 1200)    // ,: diagonal down-right
-        &mkp MB4                  // .: back button
+        &mkp MB4                  // <: back button
+        &mmv MOVE(1200, 1200)    // >: diagonal down-right
         &mkp MB5                  // /: forward button
         &kp RSHFT
 
