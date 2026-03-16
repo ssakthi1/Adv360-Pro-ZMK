@@ -464,7 +464,7 @@
         &kp N8
         &kp N9
         &kp N0
-        &kp MINUS
+        &Win_Close_Program  //&kp MINUS
 
         //row2
         &kp TAB
