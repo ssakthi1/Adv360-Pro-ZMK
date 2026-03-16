@@ -8,16 +8,6 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 #include <dt-bindings/zmk/pointing.h>
 
-&mmv {
-    time-to-max-speed-ms = <400>;
-    acceleration-exponent = <1>;
-};
- 
-&msc {
-    time-to-max-speed-ms = <500>;
-    acceleration-exponent = <1>;
-};
-
 / {
     behaviors {
       #include "macros.dtsi"
