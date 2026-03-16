@@ -303,10 +303,10 @@
         &trans    //&kp RCTRL
 
         &trans    //&tog 2
-        &mmv MOVE_X(-400)   // slow mouse left
-        &mmv MOVE_Y(400)    // slow mouse down
-        &mmv MOVE_Y(-400)   // slow mouse up
-        &mmv MOVE_X(400)    // slow mouse right        
+        &msc SCRL_LEFT  //mmv MOVE_X(-400)   // slow mouse left
+        &msc SCRL_DOWN  //mmv MOVE_Y(400)    // slow mouse down
+        &msc SCRL_UP    //mmv MOVE_Y(-400)   // slow mouse up
+        &msc SCRL_RIGHT //mmv MOVE_X(400)    // slow mouse right        
         &trans    //&kp SEMI
         &trans    //&kp SQT
 
