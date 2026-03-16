@@ -316,7 +316,8 @@
         &mmv MOVE_X(-400)   // slow mouse left
         &mmv MOVE_Y(400)    // slow mouse down
         &mmv MOVE_Y(-400)   // slow mouse up
-        &mmv MOVE_X(400)    // slow mouse right        &trans    //&kp SEMI
+        &mmv MOVE_X(400)    // slow mouse right        
+        &trans    //&kp SEMI
         &trans    //&kp SQT
 
         //row4
