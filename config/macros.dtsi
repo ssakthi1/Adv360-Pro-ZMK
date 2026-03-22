@@ -170,7 +170,7 @@ macro_quotes: macro_quotes {
   Win_Tile_Left: Win_Tile_Left {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
-    bindings = <&kp LG(LEFT)>;
+    bindings = <&kp LG(LS(LEFT))>;
     display-name = "Windows Tile Left";
   };
 
@@ -191,7 +191,7 @@ macro_quotes: macro_quotes {
   Win_Tile_Right: Win_Tile_Right {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
-    bindings = <&kp LG(RIGHT)>;
+    bindings = <&kp LG(LS(RIGHT))>;
     display-name = "Windows Tile Right";
   };
 
