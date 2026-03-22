@@ -264,10 +264,10 @@
         &tog 1
 
         &mo 3
-        &kp F7
-        &kp F8
-        &kp F9
-        &kp F10
+        &Win_Tile_Left  //kp F7
+        &Win_Tile_Right //kp F8
+        &Win_Tile_Up    //kp F9
+        &Win_Tile_Down  //kp F10
         &kp F11
         &kp F12
 
@@ -459,10 +459,10 @@
         &tog 1
 
         &mo 3
-        &kp N6
-        &kp N7
-        &kp N8
-        &kp N9
+        &Win_Tile_Left  //kp F7
+        &Win_Tile_Right //kp F8
+        &Win_Tile_Up    //kp F9
+        &Win_Tile_Down  //kp F10
         &kp N0
         &Win_Close_Program  //&kp MINUS
 
