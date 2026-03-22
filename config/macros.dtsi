@@ -170,28 +170,28 @@ macro_quotes: macro_quotes {
   Win_Tile_Left: Win_Tile_Left {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
-    bindings = <&kp LG(LEFT)>;
+    bindings = <&kp LGUI(LEFT)>;
     display-name = "Windows Tile Left";
   };
 
   Win_Tile_Up: Win_Tile_Up {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
-    bindings = <&kp LG(UP_ARROW)>;
+    bindings = <&kp LGUI(UP_ARROW)>;
     display-name = "Windows Tile Up";
   };
 
   Win_Tile_Down: Win_Tile_Down {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
-    bindings = <&kp LG(DOWN)>;
+    bindings = <&kp LGUI(DOWN)>;
     display-name = "Windows Tile Down";
   };
 
   Win_Tile_Right: Win_Tile_Right {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
-    bindings = <&kp LG(RIGHT)>;
+    bindings = <&kp LGUI(RIGHT)>;
     display-name = "Windows Tile Right";
   };
 
